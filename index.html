@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Password generator app</title>
+  </head>
+  <body>
+    <div class="whole-div">
+      <header>
+        <strong class="title-strong">Password Generator</strong>
+        <div class="password-window">
+          <strong class="generated">P4$5W0rD!</strong>
+          <span class="coppied-message">COPIED</span>
+          <img class="copy-icon" src="./images/icon-copy.svg" alt="copy icon" />
+        </div>
+      </header>
+      <main>
+        <div class="length-div">
+          <p class="length-p">
+            Character Length <span class="length-number">10</span>
+          </p>
+          <input type="range" min="0" max="20" id="password-length-range" />
+        </div>
+        <div class="checkboxes">
+          <div class="first checkbox">
+            <input type="checkbox" id="uppercase" />
+            <label for="uppercase">Include Uppercase Letters</label>
+          </div>
+
+          <div class="second checkbox">
+            <input type="checkbox" id="lowercase" />
+            <label for="lowercase">Include Lowercase Letters</label>
+          </div>
+
+          <div class="third checkbox">
+            <input type="checkbox" id="numbers" />
+            <label for="numbers">Include numbers</label>
+          </div>
+
+          <div class="fourth checkbox">
+            <input type="checkbox" id="symbols" />
+            <label for="symbols">Include Symbols</label>
+          </div>
+        </div>
+        <div class="strength-div">
+          <p class="strength-p">STRENGTH</p>
+          <b class="password-level">MEDIUM</b>
+          <div class="levels-div">
+            <div class="level one"></div>
+            <div class="level two"></div>
+            <div class="level three"></div>
+            <div class="level four"></div>
+          </div>
+        </div>
+
+        <button class="generator-btn">
+          GENERATE
+          <img
+            class="arrow"
+            src="./images/icon-arrow-right.svg"
+            alt="arrow icon"
+          />
+        </button>
+      </main>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
