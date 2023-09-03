@@ -17,7 +17,6 @@ passwordGeneratorBtn = document.querySelector(".generator-btn");
 const checkboxes = document.getElementsByName("checker");
 
 const passwordLevel = document.querySelector(".password-level");
-console.log(checkboxes);
 
 // connect to eachother range input value and length-number p tag textcontent
 rangeInput.addEventListener("input", () => {
