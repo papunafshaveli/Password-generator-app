@@ -26,34 +26,40 @@
       <main>
         <div class="length-div">
           <p class="length-p">
-            Character Length <span class="length-number">10</span>
+            Character Length <span class="length-number">0</span>
           </p>
-          <input type="range" min="0" max="20" id="password-length-range" />
+          <input
+            type="range"
+            min="0"
+            max="20"
+            id="password-length-range"
+            value="0"
+          />
         </div>
         <div class="checkboxes">
           <div class="first checkbox">
-            <input type="checkbox" id="uppercase" />
+            <input type="checkbox" name="checker" id="uppercase" />
             <label for="uppercase">Include Uppercase Letters</label>
           </div>
 
           <div class="second checkbox">
-            <input type="checkbox" id="lowercase" />
+            <input type="checkbox" name="checker" id="lowercase" />
             <label for="lowercase">Include Lowercase Letters</label>
           </div>
 
           <div class="third checkbox">
-            <input type="checkbox" id="numbers" />
+            <input type="checkbox" name="checker" id="numbers" />
             <label for="numbers">Include numbers</label>
           </div>
 
           <div class="fourth checkbox">
-            <input type="checkbox" id="symbols" />
+            <input type="checkbox" name="checker" id="symbols" />
             <label for="symbols">Include Symbols</label>
           </div>
         </div>
         <div class="strength-div">
           <p class="strength-p">STRENGTH</p>
-          <b class="password-level">MEDIUM</b>
+          <b class="password-level"> LEVEL </b>
           <div class="levels-div">
             <div class="level one"></div>
             <div class="level two"></div>

@@ -61,6 +61,7 @@ header {
   font-feature-settings: "clig" off, "liga" off;
   font-size: 2.4rem;
   font-weight: 700;
+  opacity: 0.25;
 }
 
 .coppied-message {
@@ -70,11 +71,22 @@ header {
   font-feature-settings: "clig" off, "liga" off;
   font-size: 1.8rem;
   font-weight: 700;
+  display: none;
 }
 
 .copy-icon {
   width: 1.75rem;
   height: 2rem;
+}
+
+.copy-icon:active {
+  width: 2.75rem;
+  height: 3rem;
+}
+
+.copy-icon:hover {
+  width: 2.75rem;
+  height: 3rem;
 }
 
 main {
@@ -230,6 +242,16 @@ input[type="range"]::-webkit-slider-thumb {
   .copy-icon {
     width: 2.1rem;
     height: 2.4rem;
+  }
+
+  .copy-icon:active {
+    width: 4.1rem;
+    height: 3.4rem;
+  }
+
+  .copy-icon:hover {
+    width: 4.1rem;
+    height: 3.4rem;
   }
 
   main {
