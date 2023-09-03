@@ -66,8 +66,8 @@ passwordGeneratorBtn.addEventListener("click", () => {
     generatedPassword.style.opacity = "1";
     generatedPassword.innerText = randomPassowrd;
   } else {
-    generatedPassword.innerText = "Check characters";
-    generatedPassword.style.opacity = "1";
+    generatedPassword.innerText = "Choose characters";
+    generatedPassword.style.opacity = "0.5";
   }
   // change levels and colors
   let counter = 0;
